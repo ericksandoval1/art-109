@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tut</title>
+    <meta name="description" content="tutorials">
+</head>
+
+<body>
+    <header>
+        <h1 draggable="true"> HTML FOR US BY US</h1>
+        <nav>
+            <ul>
+                <li><a href="#bee">Bee</a></li>
+                <li><a href="#car">Car</a></li>
+                <li><a href="#bird">Bird</a></li>
+                <ul>
+        </nav>
+        <div>
+            <img src="images/beeandbird.jpg" alt="Bee and Bird">
+            <img src="images/beeandbird.jpg" alt="Bee and Bird">
+
+        </div>
+    </header>
+    <main>
+        <section id="bee">
+            <h2 contenteditable="false">Buzz</h2>
+            <p contenteditable="true">
+                I'm scared of bees. Don't drag them close to me!
+                <pre>
+                    .-~~~-.
+                    /        }
+                   /      .-~
+                  |        }
+      ___\.~~-.-~|     .-~_
+          { O  |  ` .-~.   ; ~-.__
+           ~--~/-|_\|  :   : .-~
+              /  |  \~ - - ~
+             /   |   \
+                </pre>
+                <label for="bee-select">Choose a Bee:</label>
+                <select name="Select" id="bee-select">
+                    <option value="Choose a Bee">~Select~</option>
+                    <option value="Bee">Beemus</option>
+                    <option value="Bee 2">Beetrus</option>
+                    <option value="Bee 3">Albee</option>
+                    <option value="Bee 4">Beeter</option>
+
+                </select>
+            </p>
+        </section>
+        <section id="car">
+            <h2 draggable="true">Vroom</h2>
+            <p>
+                How fast do you really drive? Speeding much?
+                <pre>
+                    (¬‿¬) (¬‿¬) (¬‿¬) (¬‿¬)
+                </pre>
+            </p>
+            <p>Speed:</p>
+            <div>
+                <input type="range" id="driving" name="How Fast You Driving?"
+                min="0" max="20"/>
+                <label for="volume">How Fast You Driving?</label>
+            </div>
+        </section>
+        <section id="bird">
+            <h2 draggable="true">Squawk</h2>
+            <p>
+                <label for="bar">I'm getting Hungry</label>
+                <progress id="bar" value="80" max="100">
+            </p>
+        </section>
+    </main>
+    <footer>~~~~~~</footer>
+</body>
+
+</html>

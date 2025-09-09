@@ -1,0 +1,55 @@
+/* 
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+body {
+    background: rgb(203, 237, 255);
+}
+
+/* Global */
+body{
+    background: #f6f6f6
+}
+
+a {
+    color: #3c8453;
+}
+a:hover {
+    color:#bcaa96;
+    text-decoration: none;
+}
+
+.btn {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+/* Home */
+.home{
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+}
+.home .content-wrapper{
+    background: rgb(255 255 255 / 0.9);
+}
+/* Resume */
+/* Profile */
+/* Projects */
+/* Work Experience */
+/* Education */
+/* Footer */
+footer{
+    background-color: #222;
+    color: #d3d4d6;
+}
+
+footer a {
+    color:#bcaa96;
+}
+footer a:hover {
+    color:#3c8453;
+}

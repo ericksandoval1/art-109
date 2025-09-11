@@ -1,0 +1,113 @@
+body {
+    animation: change-color 8s infinite alternate;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: antiquewhite;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: greenyellow;
+    }
+}
+
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto;
+    text-align: center;
+    animation: skew 3s infinite alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    100% {
+        transform: skew(30deg, 20deg);
+    }
+}
+
+.square {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 75px auto;
+    transition: all 1s;
+}
+
+.square:hover {
+    background-color: aquamarine;
+    transform: rotate(30deg);
+}
+
+.button-div {
+    text-align: center;
+}
+
+.button {
+    background-color: violet;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 75px auto;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.button:hover {
+    background-color: bisque;
+    transform: scale(1.5);
+    color: black;
+}
+
+.loading {
+    background-color: darkorchid;
+    animation: stretch 5s 3 normal;
+    width: 80vw;
+}
+
+@keyframes stretch {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 80vw;
+    }
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 5px 5px 0 #ff00dd, 10px 10px 0 #00d0ff;
+    animation: shadow 3s infinite alternate;
+}
+
+@keyframes shadow {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #ff00dd, 10px 10px 0 #00d0ff;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #00d0ff, -10px -10px 0 #ff00dd;
+    }
+}
+
+.circle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}

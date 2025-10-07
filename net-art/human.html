@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const messages = [
+                "The ability to reflect, ask 'Who am I?'",
+                "Feeling with others, not just existing bedie them. Our sense of belonging and compassion defines much of our humanity.",
+                "The capacity to choose, to know right from wrong, and to wresle with that knowledge.",
+                "Turning chaos into art, pain into history, and experience into purpose.",
+                "To err, to suffer, to grow, and to keep trying anyway.",
+                "Awareness of our limits, and the drive to find significance within them."
+            ];
+
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            document.getElementById("message").textContent = randomMessage;
+        });
+    </script>
+</head>
+
+<body class="quotes">
+    <p id="message">
+    </p>
+<details class="question" >
+    <summary>
+        do you like my answer?
+    </summary>
+    <div class="choice-container">
+        <details style="margin-left: 40px;">
+            <summary>Yes</summary>
+            <p>good.</p>
+        </details>
+
+        <details style="margin-left: 40px;">
+            <summary>No</summary>
+            <p>then let me try again</p>
+            <button class="reload_button" onclick="window.location.reload()">Click for another</button>
+        </details>
+    </div>
+</details>
+    </p>
+</body>
+
+</html>

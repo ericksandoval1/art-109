@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #cdcdcd;
+    background-color: #e55959;
     /* Green background */
     color: #fff;
 }
@@ -47,9 +47,9 @@ body {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #e0e0e0;
+    color: #2a2a2a;
     /* Lighter color for active/hover */
-    background-color: #8b8b8b;
+    background-color: #f4d6ce;
     /* Darker green background on hover */
     border-radius: 4px;
     /* Optional: rounded corners */
@@ -78,7 +78,7 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #cdcdcd;
+        background-color: #e55959;
         /* Green background for mobile view */
     }
 
@@ -140,7 +140,7 @@ a {
     color: #3c8453;
 }
 a:hover {
-    color:#bcaa96;
+    color:#ffcef0;
     text-decoration: none;
 }
 

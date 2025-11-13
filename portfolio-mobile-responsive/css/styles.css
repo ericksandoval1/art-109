@@ -173,6 +173,11 @@ a:hover {
     border-radius: 5px;
 }
 
+.indented {
+    text-indent: 2em;
+  }
+  
+
 .content-wrapper {
     margin: 0 auto;
     padding: 30px;

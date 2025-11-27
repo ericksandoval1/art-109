@@ -1,0 +1,94 @@
+
+body {
+    background: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    position: absolute;
+    top: 697px;
+    left: 546px;
+    gap: 12px;
+
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(43, 156, 156);
+    color: white;
+    border-radius: 20px;
+
+}
+.button2 {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(43, 156, 156);
+    color: white;
+    border-radius: 20px;
+
+}
+.button3 {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(43, 156, 156);
+    color: white;
+    border-radius: 20px;
+
+}
+.button4 {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(43, 156, 156);
+    color: white;
+    border-radius: 20px;
+
+}
+.button5 {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(43, 156, 156);
+    color: white;
+    border-radius: 20px;
+
+}
+
+.power-button {
+    background-color: aqua;
+}
+
+.tv-container {
+    position: relative;
+}
+
+
+.tv-image {
+    max-width: 800px;
+    margin-top: 30px;
+}

@@ -9,29 +9,31 @@
 </head>
 
 <body>
-    <div class="tv-containter">
+    <div class="tv-container">
 
         <img class="tv-image" src="images/crt.png" alt="">
+
+        <div class="screen">
+            <video id="tv-video" controls> </video>
+            <img id="static-gif" src="videos/static.gif" alt="">
+        </div>
+
         <div class="button-container">
-        <div class="button1">
-             <a href="1">1</a>
-        </div>
-        <div class="button2">
-             <a href="2">2</a>
-        </div>
-        <div class="button3">
-             <a href="3">3</a>
-        </div>
-        <div class="button4">
-             <a href="4">4</a>
-        </div>
-        <div class="button5">
-            <a href="5">5</a>
-        </div>
-    </div>
+            <div class="button" data-video="videos/atla.webm">
+            </div>
+            <div class="button" data-video="videos/adventure_time.mp4">
+            </div>
+            <div class="button" data-video="videos/fullhouse.webm">
+            </div>
+            <div class="button" data-video="videos/hannah_montana.mp4">
+            </div>
+            <div class="button" data-video="videos/spongebob.mp4">
+            </div>
 
-
-</div>
+            <div class="power-button" id="power-btn"></div>
+        </div>
 </body>
+
+<script src="js/final.js"></script>
 
 </html>

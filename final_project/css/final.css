@@ -1,5 +1,5 @@
 body {
-    background: blanchedalmond;
+    background-color: cadetblue;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
@@ -10,7 +10,6 @@ body {
     top: 683px;
     left: 290px;
     gap: 12px;
-
     width: 160px;
     display: flex;
     justify-content: center;
@@ -28,7 +27,6 @@ body {
     color: white;
     border-radius: 20px;
     z-index: 12;
-
 }
 
 .button:hover {

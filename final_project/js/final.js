@@ -7,14 +7,20 @@ let powerOn = true;
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
+
+        if(!powerOn) return;
+
         const newSrc = button.dataset.video
-        if (!newSrc) return;
+
+        if (!newSrc) return; 
         video.src = newSrc;
         video.currentTime = 0;
         video.play().catch(err => {
             console.warn('could not play video: ', err);
         })
     })
+
+
 })
 
 powerButton.addEventListener('click', () => {
